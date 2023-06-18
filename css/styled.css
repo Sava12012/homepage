@@ -98,6 +98,8 @@ body {
 .contact-info__header,
 .contact-info__sub-header {
   text-align: center;
+  background-image: linear-gradient(45deg, #ff9a00, #c9c7c7, #ff9a00);
+  border-radius: 6px;
 }
 
 .contact-info__header {
@@ -138,9 +140,14 @@ body {
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+
   width: 20px;
   display: flex;
   justify-content: center;
+}
+
+.contact-info_item_linkedIn {
+  margin-bottom: 6px;
 }
 
 .contact-info__item-icon path {
@@ -307,9 +314,6 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
-}
-
-a {
 }
 
 a:hover,
