@@ -202,6 +202,7 @@ body {
 
 .skills {
   display: flex;
+  flex-direction: column;
 }
 
 .skills__header {
