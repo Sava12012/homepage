@@ -161,18 +161,31 @@ body {
   color: var(--secondary-text-color);
   text-align: justify;
 }
+.skills__block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills {
+  display: flex;
+}
 
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
   margin-bottom: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  list-style-type: none;
 }
 
 .skills__text {
   color: var(--secondary-text-color);
-  text-align: justify;
+  font-weight: normal;
 }
-
+.skills__text:first-child {
+  margin-top: 6px;
+}
 /* Experience and additional info styles */
 
 .experiences {
